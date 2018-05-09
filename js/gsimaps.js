@@ -654,43 +654,6 @@ CONFIG.FUNCMENU = {
 			id : 'danmen',
 			arrow : true,
 			childrenWidth:210,
-		},
-		{
-			
-			title : '3D',
-			arrow : true,
-			childrenWidth:210,
-			children : [
-				{
-					id : 'gsi3d_l',
-					title : '大(2048×2048)',
-					//arrow : true,
-					href : 'gsi3d_l'//'http://cyberjapandata.gsi.go.jp/3d/site/index.html?z={z}&lat={y}&lon={x}'
-				},
-				
-				{
-					id : 'gsi3d_s',
-					title : '小(1024×1024)',
-					//arrow : true,
-					href : 'gsi3d_s'//'http://cyberjapandata.gsi.go.jp/3d/site/index.html?z={z}&lat={y}&lon={x}'
-				},
-				
-				{
-					id : 'gsi3d_custom',
-					title : 'カスタム'
-				}/*,
-				{
-					id : 'gsi3d_view',
-					title : '表示領域(最大2048×2048)',
-					//arrow : true,
-					href : 'gsi3d_view'//'http://cyberjapandata.gsi.go.jp/3d/site/index.html?z={z}&lat={y}&lon={x}'
-				}*/
-			]
-		},
-		{
-			title : 'Globe',
-			arrow : true,
-			href : 'gsiglobe'//'http://maps.gsi.go.jp/globe/index_globe.html'
 		}
 	]
 };
